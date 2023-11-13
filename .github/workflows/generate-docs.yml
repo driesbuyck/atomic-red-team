@@ -10,7 +10,7 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PROTECTED_BRANCH_PUSH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
         env:
           token: ${{ secrets.GH_TOKEN }}  # Use the secret you created
       - name: setup ruby
