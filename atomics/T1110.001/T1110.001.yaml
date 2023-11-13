@@ -9,7 +9,7 @@ atomic_tests:
   - windows
   input_arguments:
     user:
-      description: Account to bruteforce
+      description: Account to bruteforce - test
       type: string
       default: '%username%'
   executor:
